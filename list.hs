@@ -12,3 +12,5 @@ boombang xs = [if x > 10 then "Boom!" else "Bang!" | x <-xs, odd x]
 test_two_in xs ys = [x*y| x<-xs, y<-ys]
 
 length' xs = sum [1 | _<-xs]
+
+zip' xs ys = [(x,y)| ] 
